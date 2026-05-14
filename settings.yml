@@ -1,6 +1,36 @@
 menu_sections:
   type: objects
-  default: []
+  default: [
+  	{
+  		"setting": "menu_sections",
+  		"value": [
+  			{
+  				"links": [
+  					{
+  						"url": "/admin/site_settings",
+  						"icon": "wrench",
+  						"text": "Site Settings"
+  					},
+  					{
+  						"url": "/admin/customize/themes",
+  						"icon": "wand-magic",
+  						"text": "Theme Components"
+  					},
+  					{
+  						"url": "/admin",
+  						"icon": "gear",
+  						"text": "Admin"
+  					}
+  				],
+  				"title": "ADMIN",
+  				"groups": [
+  					1
+  				]
+  			}
+  		]
+  	}
+  ]
+    
   schema:
     name: new_menu_section
     identifier: title
