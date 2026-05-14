@@ -30,7 +30,6 @@ menu_sections:
   		]
   	}
   ]
-    
   schema:
     name: new_menu_section
     identifier: title
